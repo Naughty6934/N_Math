@@ -4,9 +4,10 @@ webpackJsonp([3],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlayerPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LevelgamePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__player_player__ = __webpack_require__(99);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,30 +19,34 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 /**
- * Generated class for the PlayerPage page.
+ * Generated class for the LevelgamePage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var PlayerPage = (function () {
-    function PlayerPage(navCtrl, navParams) {
+var LevelgamePage = (function () {
+    function LevelgamePage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    PlayerPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad PlayerPage');
+    LevelgamePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad LevelgamePage');
     };
-    return PlayerPage;
+    LevelgamePage.prototype.playtoGames = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__player_player__["a" /* PlayerPage */]);
+    };
+    return LevelgamePage;
 }());
-PlayerPage = __decorate([
+LevelgamePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-player',template:/*ion-inline-start:"C:\Users\TooKTa\Desktop\New folder (2)\N_Math\src\pages\player\player.html"*/'<!--\n\n  Generated template for the PlayerPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>player</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n  <quick-game></quick-game>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TooKTa\Desktop\New folder (2)\N_Math\src\pages\player\player.html"*/,
+        selector: 'page-levelgame',template:/*ion-inline-start:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/levelgame/levelgame.html"*/'<!--\n  Generated template for the LevelgamePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-row>\n    <ion-col col-2>\n    </ion-col>\n    <ion-col col-8>\n        <button ion-button block outline icon-only color="secondary" (click)="playtoGames()">\n            <ion-icon name="md-cloudy">  Easy</ion-icon>\n          </button>\n    </ion-col>\n    <ion-col col-2>\n    </ion-col>\n\n  </ion-row>\n\n  <ion-row>\n    <ion-col col-2>\n    </ion-col>\n    <ion-col col-8>\n        <button ion-button block outline icon-only  (click)="playtoGames()">\n            <ion-icon name="md-happy">  Normal</ion-icon>\n          </button>\n    </ion-col>\n    <ion-col col-2>\n    </ion-col>\n\n  </ion-row>\n\n  <ion-row>\n    <ion-col col-2>\n    </ion-col>\n    <ion-col col-8>\n        <button ion-button block outline icon-only color="danger" (click)="playtoGames()">\n            <ion-icon name="md-flame">  Hard</ion-icon>\n          </button>\n    </ion-col>\n    <ion-col col-2>\n    </ion-col>\n\n  </ion-row>\n\n\n</ion-content>'/*ion-inline-end:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/levelgame/levelgame.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
-], PlayerPage);
+], LevelgamePage);
 
-//# sourceMappingURL=player.js.map
+//# sourceMappingURL=levelgame.js.map
 
 /***/ }),
 
@@ -67,15 +72,15 @@ webpackEmptyAsyncContext.id = 109;
 
 var map = {
 	"../pages/levelgame/levelgame.module": [
-		266,
+		268,
 		2
 	],
 	"../pages/player/player.module": [
-		267,
+		266,
 		1
 	],
 	"../pages/score/score.module": [
-		268,
+		267,
 		0
 	]
 };
@@ -102,7 +107,7 @@ module.exports = webpackAsyncContext;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__levelgame_levelgame__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__levelgame_levelgame__ = __webpack_require__(100);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -126,7 +131,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"C:\Users\TooKTa\Desktop\New folder (2)\N_Math\src\pages\home\home.html"*/'<!-- <ion-header>\n\n  <ion-navbar>\n\n    \n\n  </ion-navbar>\n\n</ion-header> -->\n\n\n\n<ion-content>\n\n  <div id="wrapper">\n\n    <div id="content" text-center>\n\n\n\n      <ion-grid>\n\n        <ion-row id="row-button">\n\n          <ion-col col-3>\n\n\n\n          </ion-col>\n\n          <ion-col col-6 id="col-button">\n\n            <h4 text-center>Best : </h4>\n\n            <button ion-button block (click)="startGame()">Start</button>\n\n          </ion-col>\n\n          <ion-col col-3>\n\n\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid>\n\n      <!-- <img src="../assets/pic/N_Math2.gif" alt="" id="math"> -->\n\n      <!-- <ion-card>\n\n  <ion-card-content >\n\n    \n\n    \n\n  </ion-card-content>\n\n</ion-card> -->\n\n\n\n    </div>\n\n  </div>\n\n  <footer id="footer">\n\n    <div id="footer-content">\n\n\n\n\n\n      <ion-grid>\n\n        <ion-row >\n\n          <ion-col col-3 class="cartoon" text-center>\n\n            <img src="../assets/pic/elephant.gif" alt="">\n\n\n\n          </ion-col>\n\n\n\n          <ion-col col-6 text-center>\n\n\n\n          </ion-col>\n\n\n\n          <ion-col col-3 class="cartoon" text-center>\n\n            <img src="../assets/pic/lion.gif" alt="">\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid>\n\n    </div>\n\n  </footer>\n\n</ion-content>'/*ion-inline-end:"C:\Users\TooKTa\Desktop\New folder (2)\N_Math\src\pages\home\home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/home/home.html"*/'<!-- <ion-header>\n  <ion-navbar>\n    \n  </ion-navbar>\n</ion-header> -->\n\n<ion-content>\n  <div id="wrapper">\n    <div id="content" text-center>\n\n      <ion-grid>\n        <ion-row id="row-button">\n          <ion-col col-3>\n\n          </ion-col>\n          <ion-col col-6 id="col-button">\n            <h4 text-center>Best : </h4>\n            <button ion-button block outline (click)="startGame()">Start</button>\n          </ion-col>\n          <ion-col col-3>\n\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n      <!-- <img src="../assets/pic/N_Math2.gif" alt="" id="math"> -->\n      <!-- <ion-card>\n  <ion-card-content >\n    \n    \n  </ion-card-content>\n</ion-card> -->\n\n    </div>\n  </div>\n  <footer id="footer">\n    <div id="footer-content">\n\n\n      <ion-grid>\n        <ion-row >\n          <ion-col col-3 class="cartoon" text-center>\n            <img src="../assets/pic/elephant.gif" alt="">\n\n          </ion-col>\n\n          <ion-col col-6 text-center>\n\n          </ion-col>\n\n          <ion-col col-3 class="cartoon" text-center>\n            <img src="../assets/pic/lion.gif" alt="">\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </div>\n  </footer>\n</ion-content>'/*ion-inline-end:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/home/home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
 ], HomePage);
@@ -171,7 +176,7 @@ var ScorePage = (function () {
 }());
 ScorePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-score',template:/*ion-inline-start:"C:\Users\TooKTa\Desktop\New folder (2)\N_Math\src\pages\score\score.html"*/'<!--\n\n  Generated template for the ScorePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n  <ion-row>\n\n    <ion-col col 2>\n\n    </ion-col>\n\n    <ion-col col 8>\n\n        <ion-card>\n\n              <ion-card-content>\n\n               <h4>Best : </h4>\n\n               <h4>Score : </h4>\n\n              </ion-card-content>\n\n            </ion-card>\n\n    </ion-col>\n\n    <ion-col col 2>\n\n    </ion-col>\n\n  </ion-row>\n\n  <ion-row>\n\n      <ion-col col 3>\n\n      </ion-col>\n\n      <ion-col col 3>\n\n          <button ion-button icon-only>\n\n              <ion-icon name="home"></ion-icon>\n\n            </button>\n\n      </ion-col>\n\n      <ion-col col 3>\n\n          <button ion-button icon-only>\n\n              <ion-icon name="md-refresh"></ion-icon>\n\n            </button>\n\n      </ion-col>\n\n      <ion-col col 3>\n\n\n\n        </ion-col>\n\n    </ion-row>\n\n</ion-content>'/*ion-inline-end:"C:\Users\TooKTa\Desktop\New folder (2)\N_Math\src\pages\score\score.html"*/,
+        selector: 'page-score',template:/*ion-inline-start:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/score/score.html"*/'<!--\n  Generated template for the ScorePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <ion-row>\n    <ion-col col 2>\n    </ion-col>\n    <ion-col col 8>\n        <ion-card>\n              <ion-card-content>\n               <h4>Best : </h4>\n               <h4>Score : </h4>\n              </ion-card-content>\n            </ion-card>\n    </ion-col>\n    <ion-col col 2>\n    </ion-col>\n  </ion-row>\n  <ion-row>\n      <ion-col col 3>\n      </ion-col>\n      <ion-col col 3>\n          <button ion-button icon-only>\n              <ion-icon name="home"></ion-icon>\n            </button>\n      </ion-col>\n      <ion-col col 3>\n          <button ion-button icon-only>\n              <ion-icon name="md-refresh"></ion-icon>\n            </button>\n      </ion-col>\n      <ion-col col 3>\n\n        </ion-col>\n    </ion-row>\n</ion-content>'/*ion-inline-end:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/score/score.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
 ], ScorePage);
@@ -206,9 +211,9 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(264);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_levelgame_levelgame__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_levelgame_levelgame__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_quick_game_quick_game__ = __webpack_require__(265);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_player_player__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_player_player__ = __webpack_require__(99);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_score_score__ = __webpack_require__(195);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -246,9 +251,9 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], {}, {
                 links: [
-                    { loadChildren: '../pages/levelgame/levelgame.module#LevelgamePageModule', name: 'LevelgamePage', segment: 'levelgame', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/player/player.module#PlayerPageModule', name: 'PlayerPage', segment: 'player', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/score/score.module#ScorePageModule', name: 'ScorePage', segment: 'score', priority: 'low', defaultHistory: [] }
+                    { loadChildren: '../pages/score/score.module#ScorePageModule', name: 'ScorePage', segment: 'score', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/levelgame/levelgame.module#LevelgamePageModule', name: 'LevelgamePage', segment: 'levelgame', priority: 'low', defaultHistory: [] }
                 ]
             })
         ],
@@ -309,7 +314,7 @@ var MyApp = (function () {
     return MyApp;
 }());
 MyApp = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"C:\Users\TooKTa\Desktop\New folder (2)\N_Math\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\TooKTa\Desktop\New folder (2)\N_Math\src\app\app.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/admin/Desktop/N_MathII/N_Math/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/admin/Desktop/N_MathII/N_Math/src/app/app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
@@ -373,7 +378,7 @@ var QuickGameComponent = (function () {
 }());
 QuickGameComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'quick-game',template:/*ion-inline-start:"C:\Users\TooKTa\Desktop\New folder (2)\N_Math\src\components\quick-game\quick-game.html"*/'<!-- Generated template for the QuickGameComponent component -->\n\n<div class="row" *ngFor="let data of mydata">\n\n<!-- <div class="col">\n\n    <button ion-button color="secondary" outline>{{data.number1}}</button>\n\n</div>\n\n<div class="col">\n\n    <button ion-button color="secondary" outline>{{data.math}}</button>\n\n</div>\n\n<div class="col">\n\n    <button ion-button color="secondary" outline>{{data.number2}}</button>\n\n</div>\n\n<div class="col">\n\n  <h4>=</h4>\n\n</div> -->\n\n\n\n\n\n\n\n\n\n  <div class="col">{{data.number1}}</div>\n\n  <div class="col">{{data.number1}}</div>\n\n  <div class="col">{{data.code}}</div>          \n\n</div>\n\n'/*ion-inline-end:"C:\Users\TooKTa\Desktop\New folder (2)\N_Math\src\components\quick-game\quick-game.html"*/
+        selector: 'quick-game',template:/*ion-inline-start:"/Users/admin/Desktop/N_MathII/N_Math/src/components/quick-game/quick-game.html"*/'<!-- Generated template for the QuickGameComponent component -->\n<div class="row" *ngFor="let data of mydata">\n<!-- <div class="col">\n    <button ion-button color="secondary" outline>{{data.number1}}</button>\n</div>\n<div class="col">\n    <button ion-button color="secondary" outline>{{data.math}}</button>\n</div>\n<div class="col">\n    <button ion-button color="secondary" outline>{{data.number2}}</button>\n</div>\n<div class="col">\n  <h4>=</h4>\n</div> -->\n\n\n\n\n  <div class="col">{{data.number1}}</div>\n  <div class="col">{{data.number1}}</div>\n  <div class="col">{{data.code}}</div>          \n</div>\n'/*ion-inline-end:"/Users/admin/Desktop/N_MathII/N_Math/src/components/quick-game/quick-game.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
 ], QuickGameComponent);
@@ -386,10 +391,9 @@ QuickGameComponent = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LevelgamePage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlayerPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__player_player__ = __webpack_require__(100);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -401,34 +405,30 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
 /**
- * Generated class for the LevelgamePage page.
+ * Generated class for the PlayerPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var LevelgamePage = (function () {
-    function LevelgamePage(navCtrl, navParams) {
+var PlayerPage = (function () {
+    function PlayerPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    LevelgamePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad LevelgamePage');
+    PlayerPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad PlayerPage');
     };
-    LevelgamePage.prototype.playtoGames = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__player_player__["a" /* PlayerPage */]);
-    };
-    return LevelgamePage;
+    return PlayerPage;
 }());
-LevelgamePage = __decorate([
+PlayerPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-levelgame',template:/*ion-inline-start:"C:\Users\TooKTa\Desktop\New folder (2)\N_Math\src\pages\levelgame\levelgame.html"*/'<!--\n\n  Generated template for the LevelgamePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n  <ion-navbar>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-row>\n\n    <ion-col col-2>\n\n    </ion-col>\n\n    <ion-col col-8>\n\n        <button ion-button full icon-only color="secondary" (click)="playtoGames()">\n\n            <ion-icon name="md-cloudy">  Easy</ion-icon>\n\n          </button>\n\n    </ion-col>\n\n    <ion-col col-2>\n\n    </ion-col>\n\n\n\n  </ion-row>\n\n\n\n  <ion-row>\n\n    <ion-col col-2>\n\n    </ion-col>\n\n    <ion-col col-8>\n\n        <button ion-button full icon-only  (click)="playtoGames()">\n\n            <ion-icon name="md-happy">  Normal</ion-icon>\n\n          </button>\n\n    </ion-col>\n\n    <ion-col col-2>\n\n    </ion-col>\n\n\n\n  </ion-row>\n\n\n\n  <ion-row>\n\n    <ion-col col-2>\n\n    </ion-col>\n\n    <ion-col col-8>\n\n        <button ion-button full icon-only color="danger" (click)="playtoGames()">\n\n            <ion-icon name="md-flame">  Hard</ion-icon>\n\n          </button>\n\n    </ion-col>\n\n    <ion-col col-2>\n\n    </ion-col>\n\n\n\n  </ion-row>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\TooKTa\Desktop\New folder (2)\N_Math\src\pages\levelgame\levelgame.html"*/,
+        selector: 'page-player',template:/*ion-inline-start:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/player/player.html"*/'<!--\n  Generated template for the PlayerPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>player</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <quick-game></quick-game>\n</ion-content>\n'/*ion-inline-end:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/player/player.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
-], LevelgamePage);
+], PlayerPage);
 
-//# sourceMappingURL=levelgame.js.map
+//# sourceMappingURL=player.js.map
 
 /***/ })
 
