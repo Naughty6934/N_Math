@@ -1,3 +1,34 @@
 page-levelgame {
-
+    .content {
+        background-image: url("../assets/pic/N_Math2.gif");
+        background-size: 100% 100%;
+    }   
+    .header {
+        /* background: #f8f8f8; */
+        background-color: transparent;
+      }
+      #button{
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 30px;
+      //  margin-top: 20px;
+        margin-top: -3%;
+        margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 25px;
+      }
+      .button{
+        border-radius: 25px;
+      }
+      #blank{
+          background-color: black;
+          margin-bottom: 50px
+      }
+      .button-ios {
+        border-radius: 30px;
+        height: 4em;
+      }
+      .button-md {
+        border-radius: 30px;
+        height: 4em;
+      }
 }
