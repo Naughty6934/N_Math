@@ -25517,7 +25517,7 @@ page-home #wrapper {
   height: auto !important;
   margin-bottom: -30%;
   /* the bottom margin is the negative value of the footer's total height */
-  background-image: url("../assets/pic/N_Math2.gif");
+  background-image: url("../assets/pic/N_Math2.1.gif");
   background-size: 100% 100%;
 }
 
@@ -25566,4 +25566,52 @@ page-home #col-button {
 
 page-home #row-button {
   margin-top: 10%;
+}
+
+page-home .button-ios {
+  border-radius: 30px;
+  height: 4em;
+}
+
+page-home .button-md {
+  border-radius: 30px;
+  height: 4em;
+}
+
+page-levelgame .content {
+  background-image: url("../assets/pic/N_Math2.gif");
+  background-size: 100% 100%;
+}
+
+page-levelgame .header {
+  /* background: #f8f8f8; */
+  background-color: transparent;
+}
+
+page-levelgame #button {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 30px;
+  margin-top: -3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 25px;
+}
+
+page-levelgame .button {
+  border-radius: 25px;
+}
+
+page-levelgame #blank {
+  background-color: black;
+  margin-bottom: 50px;
+}
+
+page-levelgame .button-ios {
+  border-radius: 30px;
+  height: 4em;
+}
+
+page-levelgame .button-md {
+  border-radius: 30px;
+  height: 4em;
 }

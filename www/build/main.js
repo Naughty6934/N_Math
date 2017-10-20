@@ -4,10 +4,9 @@ webpackJsonp([3],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LevelgamePage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlayerPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__player_player__ = __webpack_require__(99);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -19,34 +18,30 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
 /**
- * Generated class for the LevelgamePage page.
+ * Generated class for the PlayerPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var LevelgamePage = (function () {
-    function LevelgamePage(navCtrl, navParams) {
+var PlayerPage = (function () {
+    function PlayerPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    LevelgamePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad LevelgamePage');
+    PlayerPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad PlayerPage');
     };
-    LevelgamePage.prototype.playtoGames = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__player_player__["a" /* PlayerPage */]);
-    };
-    return LevelgamePage;
+    return PlayerPage;
 }());
-LevelgamePage = __decorate([
+PlayerPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-levelgame',template:/*ion-inline-start:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/levelgame/levelgame.html"*/'<!--\n  Generated template for the LevelgamePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-row>\n    <ion-col col-2>\n    </ion-col>\n    <ion-col col-8>\n        <button ion-button block outline icon-only color="secondary" (click)="playtoGames()">\n            <ion-icon name="md-cloudy">  Easy</ion-icon>\n          </button>\n    </ion-col>\n    <ion-col col-2>\n    </ion-col>\n\n  </ion-row>\n\n  <ion-row>\n    <ion-col col-2>\n    </ion-col>\n    <ion-col col-8>\n        <button ion-button block outline icon-only  (click)="playtoGames()">\n            <ion-icon name="md-happy">  Normal</ion-icon>\n          </button>\n    </ion-col>\n    <ion-col col-2>\n    </ion-col>\n\n  </ion-row>\n\n  <ion-row>\n    <ion-col col-2>\n    </ion-col>\n    <ion-col col-8>\n        <button ion-button block outline icon-only color="danger" (click)="playtoGames()">\n            <ion-icon name="md-flame">  Hard</ion-icon>\n          </button>\n    </ion-col>\n    <ion-col col-2>\n    </ion-col>\n\n  </ion-row>\n\n\n</ion-content>'/*ion-inline-end:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/levelgame/levelgame.html"*/,
+        selector: 'page-player',template:/*ion-inline-start:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/player/player.html"*/'<!--\n  Generated template for the PlayerPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>player</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <quick-game></quick-game>\n</ion-content>\n'/*ion-inline-end:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/player/player.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
-], LevelgamePage);
+], PlayerPage);
 
-//# sourceMappingURL=levelgame.js.map
+//# sourceMappingURL=player.js.map
 
 /***/ }),
 
@@ -72,15 +67,15 @@ webpackEmptyAsyncContext.id = 109;
 
 var map = {
 	"../pages/levelgame/levelgame.module": [
-		267,
+		266,
 		2
 	],
 	"../pages/player/player.module": [
-		266,
+		268,
 		1
 	],
 	"../pages/score/score.module": [
-		268,
+		267,
 		0
 	]
 };
@@ -107,7 +102,7 @@ module.exports = webpackAsyncContext;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__levelgame_levelgame__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__levelgame_levelgame__ = __webpack_require__(99);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -211,9 +206,9 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(264);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_levelgame_levelgame__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_levelgame_levelgame__ = __webpack_require__(99);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_quick_game_quick_game__ = __webpack_require__(265);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_player_player__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_player_player__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_score_score__ = __webpack_require__(195);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -251,9 +246,9 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], {}, {
                 links: [
-                    { loadChildren: '../pages/player/player.module#PlayerPageModule', name: 'PlayerPage', segment: 'player', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/levelgame/levelgame.module#LevelgamePageModule', name: 'LevelgamePage', segment: 'levelgame', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/score/score.module#ScorePageModule', name: 'ScorePage', segment: 'score', priority: 'low', defaultHistory: [] }
+                    { loadChildren: '../pages/score/score.module#ScorePageModule', name: 'ScorePage', segment: 'score', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/player/player.module#PlayerPageModule', name: 'PlayerPage', segment: 'player', priority: 'low', defaultHistory: [] }
                 ]
             })
         ],
@@ -391,9 +386,10 @@ QuickGameComponent = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlayerPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LevelgamePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__player_player__ = __webpack_require__(100);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -405,30 +401,34 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 /**
- * Generated class for the PlayerPage page.
+ * Generated class for the LevelgamePage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var PlayerPage = (function () {
-    function PlayerPage(navCtrl, navParams) {
+var LevelgamePage = (function () {
+    function LevelgamePage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    PlayerPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad PlayerPage');
+    LevelgamePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad LevelgamePage');
     };
-    return PlayerPage;
+    LevelgamePage.prototype.playtoGames = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__player_player__["a" /* PlayerPage */]);
+    };
+    return LevelgamePage;
 }());
-PlayerPage = __decorate([
+LevelgamePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-player',template:/*ion-inline-start:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/player/player.html"*/'<!--\n  Generated template for the PlayerPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>player</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <quick-game></quick-game>\n</ion-content>\n'/*ion-inline-end:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/player/player.html"*/,
+        selector: 'page-levelgame',template:/*ion-inline-start:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/levelgame/levelgame.html"*/'<!--\n  Generated template for the LevelgamePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<!-- <ion-header>\n  <ion-navbar>\n  </ion-navbar>\n</ion-header> -->\n\n<ion-content>\n  <div id="blank">\n\n  </div>\n  <div id="button">\n    <ion-row>\n      <ion-col col-2>\n      </ion-col>\n      <ion-col col-8>\n        <button ion-button full icon-only color="secondary" (click)="playtoGames()">\n          <ion-icon name="md-cloudy"> Easy</ion-icon>\n        </button>\n      </ion-col>\n      <ion-col col-2>\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n      <ion-col col-2>\n      </ion-col>\n      <ion-col col-8>\n        <button ion-button full icon-only (click)="playtoGames()" text-left>\n          <ion-icon name="md-happy"> Normal</ion-icon>\n        </button>\n      </ion-col>\n      <ion-col col-2>\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n      <ion-col col-2>\n      </ion-col>\n      <ion-col col-8>\n        <button ion-button full icon-only color="danger" (click)="playtoGames()">\n          <ion-icon name="md-flame"> Hard</ion-icon>\n        </button>\n      </ion-col>\n      <ion-col col-2>\n      </ion-col>\n    </ion-row>\n  </div>\n</ion-content>'/*ion-inline-end:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/levelgame/levelgame.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
-], PlayerPage);
+], LevelgamePage);
 
-//# sourceMappingURL=player.js.map
+//# sourceMappingURL=levelgame.js.map
 
 /***/ })
 
