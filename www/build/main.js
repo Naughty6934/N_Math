@@ -72,7 +72,7 @@ webpackEmptyAsyncContext.id = 109;
 
 var map = {
 	"../pages/levelgame/levelgame.module": [
-		268,
+		267,
 		2
 	],
 	"../pages/player/player.module": [
@@ -80,7 +80,7 @@ var map = {
 		1
 	],
 	"../pages/score/score.module": [
-		267,
+		268,
 		0
 	]
 };
@@ -252,8 +252,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], {}, {
                 links: [
                     { loadChildren: '../pages/player/player.module#PlayerPageModule', name: 'PlayerPage', segment: 'player', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/score/score.module#ScorePageModule', name: 'ScorePage', segment: 'score', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/levelgame/levelgame.module#LevelgamePageModule', name: 'LevelgamePage', segment: 'levelgame', priority: 'low', defaultHistory: [] }
+                    { loadChildren: '../pages/levelgame/levelgame.module#LevelgamePageModule', name: 'LevelgamePage', segment: 'levelgame', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/score/score.module#ScorePageModule', name: 'ScorePage', segment: 'score', priority: 'low', defaultHistory: [] }
                 ]
             })
         ],
@@ -378,7 +378,7 @@ var QuickGameComponent = (function () {
 }());
 QuickGameComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'quick-game',template:/*ion-inline-start:"/Users/admin/Desktop/N_MathII/N_Math/src/components/quick-game/quick-game.html"*/'<!-- Generated template for the QuickGameComponent component -->\n<div class="row" *ngFor="let data of mydata">\n<!-- <div class="col">\n    <button ion-button color="secondary" outline>{{data.number1}}</button>\n</div>\n<div class="col">\n    <button ion-button color="secondary" outline>{{data.math}}</button>\n</div>\n<div class="col">\n    <button ion-button color="secondary" outline>{{data.number2}}</button>\n</div>\n<div class="col">\n  <h4>=</h4>\n</div> -->\n\n\n\n\n  <div class="col">{{data.number1}}</div>\n  <div class="col">{{data.number1}}</div>\n  <div class="col">{{data.code}}</div>          \n</div>\n'/*ion-inline-end:"/Users/admin/Desktop/N_MathII/N_Math/src/components/quick-game/quick-game.html"*/
+        selector: 'quick-game',template:/*ion-inline-start:"/Users/admin/Desktop/N_MathII/N_Math/src/components/quick-game/quick-game.html"*/'<!-- Generated template for the QuickGameComponent component -->\n<div class="row" *ngFor="let data of mydata">\n  <div class="col">\n      <h1 text-center>{{data.number1}}</h1>\n    </div>\n  <div class="col"> \n      <h1 text-center>{{data.math}}</h1>\n</div>\n  <div class="col"> \n        <h1 text-center>{{data.number2}}</h1>\n            </div>          \n</div>\n'/*ion-inline-end:"/Users/admin/Desktop/N_MathII/N_Math/src/components/quick-game/quick-game.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
 ], QuickGameComponent);
