@@ -4,7 +4,7 @@ page-home {
         min-height: 100%;
         height: auto !important;
         margin-bottom: -30%; /* the bottom margin is the negative value of the footer's total height */
-        background-image: url("../assets/pic/N_Math2.gif");
+        background-image: url("../assets/pic/N_Math2.1.gif");
         background-size: 100% 100%;
       }
       
@@ -52,5 +52,13 @@ page-home {
   }
   #row-button{
     margin-top: 10%
+  }
+  .button-ios {
+    border-radius: 30px;
+    height: 4em;
+  }
+  .button-md {
+    border-radius: 30px;
+    height: 4em;
   }
 }
