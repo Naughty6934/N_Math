@@ -25511,3 +25511,59 @@ ion-navbar.toolbar {
   height: calc(46px + constant(safe-area-inset-top));
   min-height: calc(46px + constant(safe-area-inset-top));
 }
+
+page-home #wrapper {
+  min-height: 100%;
+  height: auto !important;
+  margin-bottom: -30%;
+  /* the bottom margin is the negative value of the footer's total height */
+  background-image: url("../assets/pic/N_Math2.gif");
+  background-size: 100% 100%;
+}
+
+page-home #wrapper:after {
+  content: "";
+  display: block;
+}
+
+page-home #content {
+  height: 100%;
+}
+
+page-home #footer {
+  height: 163px;
+  /* the footer's total height */
+}
+
+page-home #footer-content {
+  height: 163px;
+  /* height + top/bottom paddding + top/bottom border must add up to footer height */
+}
+
+page-home .grid {
+  height: 180px;
+}
+
+page-home #math {
+  height: 116px;
+}
+
+page-home .row {
+  height: 300px;
+}
+
+page-home ion-content {
+  /* max-height: 415px; */
+  min-width: 412px;
+}
+
+page-home #col-button {
+  background-color: rgba(255, 255, 255, 0.81);
+  height: 140px;
+  border-radius: 12px;
+  padding: 1%;
+}
+
+page-home #row-button {
+  margin-top: 10%;
+}

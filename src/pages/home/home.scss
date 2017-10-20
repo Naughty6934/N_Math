@@ -1,3 +1,56 @@
 page-home {
 
+    #wrapper {
+        min-height: 100%;
+        height: auto !important;
+        margin-bottom: -30%; /* the bottom margin is the negative value of the footer's total height */
+        background-image: url("../assets/pic/N_Math2.gif");
+        background-size: 100% 100%;
+      }
+      
+      #wrapper:after {
+        content: "";
+        display: block;
+        //height: 50px; /* the footer's total height */
+
+      }
+      
+      #content {
+        height: 100%;
+      }
+      
+      #footer {
+        height: 163px; /* the footer's total height */
+      }
+      
+      #footer-content {
+       // background-color: #f3e5f5;
+       // border: 1px solid #ab47bc;
+       height: 163px; /* height + top/bottom paddding + top/bottom border must add up to footer height */
+        //padding: 8px;
+      }
+    .grid{
+        height: 180px;
+    }
+    #math{
+       // max-height: 110%;
+       height: 116px;
+    }
+    .row {        
+        height: 300px;
+    }
+    ion-content {
+      
+      /* max-height: 415px; */
+      min-width: 412px;
+  }
+  #col-button{
+    background-color: rgba(255, 255, 255, 0.81);
+    height: 140px;
+    border-radius: 12px;
+    padding: 1%;
+  }
+  #row-button{
+    margin-top: 10%
+  }
 }

@@ -1,31 +1,57 @@
-<ion-header>
+<!-- <ion-header>
   <ion-navbar>
-    <!-- <ion-title>
-      Ionic Blank
-    </ion-title> -->
+    
   </ion-navbar>
-</ion-header>
+</ion-header> -->
 
 <ion-content>
-<ion-row>
-  <ion-col col-3>
+  <div id="wrapper">
+    <div id="content" text-center>
 
-  </ion-col>
-  <ion-col col-6>
-      <h4 text-center>Best : </h4>
-      <button ion-button block (click)="startGame()">Start</button>
-    </ion-col>
-    <ion-col col-3>
-        
-      </ion-col>
-</ion-row>
+      <ion-grid>
+        <ion-row id="row-button">
+          <ion-col col-3>
 
-<!-- <ion-card>
+          </ion-col>
+          <ion-col col-6 id="col-button">
+            <h4 text-center>Best : </h4>
+            <button ion-button block (click)="startGame()">Start</button>
+          </ion-col>
+          <ion-col col-3>
+
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <!-- <img src="../assets/pic/N_Math2.gif" alt="" id="math"> -->
+      <!-- <ion-card>
   <ion-card-content >
     
     
   </ion-card-content>
 </ion-card> -->
 
- 
+    </div>
+  </div>
+  <footer id="footer">
+    <div id="footer-content">
+
+
+      <ion-grid>
+        <ion-row >
+          <ion-col col-3 class="cartoon" text-center>
+            <img src="../assets/pic/elephant.gif" alt="">
+
+          </ion-col>
+
+          <ion-col col-6 text-center>
+
+          </ion-col>
+
+          <ion-col col-3 class="cartoon" text-center>
+            <img src="../assets/pic/lion.gif" alt="">
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </footer>
 </ion-content>
