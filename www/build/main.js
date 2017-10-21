@@ -71,11 +71,11 @@ var map = {
 		2
 	],
 	"../pages/player/player.module": [
-		268,
+		267,
 		1
 	],
 	"../pages/score/score.module": [
-		267,
+		268,
 		0
 	]
 };
@@ -126,7 +126,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/home/home.html"*/'<!-- <ion-header>\n  <ion-navbar>\n    \n  </ion-navbar>\n</ion-header> -->\n\n<ion-content>\n  <div id="wrapper">\n    <div id="content" text-center>\n\n      <ion-grid>\n        <ion-row id="row-button">\n          <ion-col col-3>\n\n          </ion-col>\n          <ion-col col-6 id="col-button">\n            <h4 text-center>Best : </h4>\n            <button ion-button block outline (click)="startGame()">Start</button>\n          </ion-col>\n          <ion-col col-3>\n\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n      <!-- <img src="../assets/pic/N_Math2.gif" alt="" id="math"> -->\n      <!-- <ion-card>\n  <ion-card-content >\n    \n    \n  </ion-card-content>\n</ion-card> -->\n\n    </div>\n  </div>\n  <footer id="footer">\n    <div id="footer-content">\n\n\n      <ion-grid>\n        <ion-row >\n          <ion-col col-3 class="cartoon" text-center>\n            <img src="../assets/pic/elephant.gif" alt="">\n\n          </ion-col>\n\n          <ion-col col-6 text-center>\n\n          </ion-col>\n\n          <ion-col col-3 class="cartoon" text-center>\n            <img src="../assets/pic/lion.gif" alt="">\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </div>\n  </footer>\n</ion-content>'/*ion-inline-end:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/home/home.html"*/'<!-- <ion-header>\n  <ion-navbar>\n    \n  </ion-navbar>\n</ion-header> -->\n\n<ion-content>\n  <div id="wrapper">\n    <div id="content" text-center>\n\n      <ion-grid>\n        <ion-row id="row-button">\n          <ion-col col-3>\n\n          </ion-col>\n          <ion-col col-6 id="col-button">\n            <h4 text-center>Best : </h4>\n            <button ion-button block (click)="startGame()">Start</button>\n          </ion-col>\n          <ion-col col-3>\n\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n      <!-- <img src="../assets/pic/N_Math2.gif" alt="" id="math"> -->\n      <!-- <ion-card>\n  <ion-card-content >\n    \n    \n  </ion-card-content>\n</ion-card> -->\n\n    </div>\n  </div>\n  <footer id="footer">\n    <div id="footer-content">\n\n\n      <ion-grid>\n        <ion-row >\n          <ion-col col-3 class="cartoon" text-center>\n            <img src="../assets/pic/elephant.gif" alt="">\n\n          </ion-col>\n\n          <ion-col col-6 text-center>\n\n          </ion-col>\n\n          <ion-col col-3 class="cartoon" text-center>\n            <img src="../assets/pic/lion.gif" alt="">\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </div>\n  </footer>\n</ion-content>'/*ion-inline-end:"/Users/admin/Desktop/N_MathII/N_Math/src/pages/home/home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
 ], HomePage);
@@ -247,8 +247,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], {}, {
                 links: [
                     { loadChildren: '../pages/levelgame/levelgame.module#LevelgamePageModule', name: 'LevelgamePage', segment: 'levelgame', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/score/score.module#ScorePageModule', name: 'ScorePage', segment: 'score', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/player/player.module#PlayerPageModule', name: 'PlayerPage', segment: 'player', priority: 'low', defaultHistory: [] }
+                    { loadChildren: '../pages/player/player.module#PlayerPageModule', name: 'PlayerPage', segment: 'player', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/score/score.module#ScorePageModule', name: 'ScorePage', segment: 'score', priority: 'low', defaultHistory: [] }
                 ]
             })
         ],
